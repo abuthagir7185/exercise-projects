@@ -1,0 +1,106 @@
+@font-face {
+    font-family: font10;
+    src: url(fonts/Queen-of-Camelo-2.0.otf);
+}
+@font-face {
+    font-family: font1;
+    src: url(fonts/Algance-Regular.otf);
+}
+@font-face {
+    font-family: font11;
+    src: url(fonts/Vodan_Demo.ttf);
+}
+@font-face {
+    font-family: font3;
+    src: url(fonts/Algance-Regular.otffonts/CuriousTrackDemoRegular.ttf);
+}
+@font-face {
+    font-family: font9;
+    src: url(fonts/Olivera_Demo.ttf);
+}
+@font-face {
+    font-family: font12;
+    src: url(fonts/Evoria_demo.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+  background-image: url(18954499_6057485.jpg);
+}
+.background {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.overlay{
+    display: flex;
+}
+.login{
+    display: grid;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    position: relative; 
+    padding: 50px;
+    width: 100%;
+}
+.login h1{
+    color:whitesmoke;
+    display: flex;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px;
+    font-variant: small-caps;
+    border-radius: 20px;
+    text-shadow: 2px 20px 20px black;
+    margin-left: 100px;
+}
+.login form{
+    display: flex;
+    flex-direction: column;
+}
+.login p{
+    color: beige;
+    text-shadow: 2px 1px 5px black;
+    padding: 5px;
+    padding-left: 0px;
+    padding-bottom: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-variant: small-caps;
+}
+.login input{
+  padding: 8px;
+   border: 1px double black;
+}
+.login button{
+    display: flex;
+    margin-top: 10px;
+    width: 50%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 25%;
+    border: 1px double black;
+    border-radius: 20px;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+}
+.bottom p{
+    padding-top: 20px;
+}
+.bottom p{
+    display: grid;
+    position: relative;
+}
+.bottom p a{
+    color: aliceblue;
+    text-decoration: none;
+}

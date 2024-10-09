@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="some projects/signinpage.html">
+</head>
+<body>
+      <!--background section-->
+      <section class="background">
+        <!--overlay section-->
+       <section class="overlay">
+           <!--Blur-Background section-->
+           <section class="blurbackground">
+            <!--Box section-->
+               <div class="box">
+               </div>
+               <!--sign-up section-->
+       <div class="login">
+           <h1>Register account</h1>
+           <form action="">
+              <p> name:</p> <input type="text" placeholder="Enter Your Name*" id="uname">
+              <p> email:</p> <input type="email" placeholder="Enter Your Email*" id="uemail">
+              <p> Password:</p> <input type="password" placeholder="Enter Your Password*" id="upass">
+              <p>Confirm Password:</p> <input type="password" placeholder="Confirm Your Password*" id="cpass">
+               <button onclick="getvalue(event)">Sign UP</button>
+           </form>
+           <!--Bottom section-->
+           <div class="bottom">
+           <p>(OR)</p>
+          <p><a href="signinpage.html">Sign In</a></p>
+       </div>
+       </div>
+       </section>
+   </section>
+</section>
+<script>
+    //--getting values
+var username=document.getElementById("uname").value
+var useremail=document.getElementById("uemail").value
+var userpassword=document.getElementById("upass").value
+var confirmpassword=document.getElementById("cpass").value
+//--function
+function getvalue(event)
+{
+console.log('username:',uname.value)
+console.log('useremail:',uemail.value)
+console.log('userpassword:',upass.value)
+console.log('confirmpassword:',cpass.value)
+}
+</script>
+</body>
+</html>
